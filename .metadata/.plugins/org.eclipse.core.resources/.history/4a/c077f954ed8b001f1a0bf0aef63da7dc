@@ -1,0 +1,26 @@
+package com.eduroa;
+
+import com.eduroa.clases.Numeros;
+
+public class Aplicacion {
+    public static void main(String[] args) {
+        // Probar el método esPar
+        System.out.println("Es par (4): " + Numeros.esPar(4)); // true
+        System.out.println("Es par (5): " + Numeros.esPar(5)); // false
+
+        // Probar el método esPrimo
+        System.out.println("Es primo (7): " + Numeros.esPrimo(7)); // true
+        System.out.println("Es primo (8): " + Numeros.esPrimo(8)); // false
+
+        // Probar el método stringEnReversa
+        System.out.println("String en reversa ('hola'): " + Numeros.stringEnreversa("hola")); // aloh
+
+        // Probar el método esPalindromo
+        System.out.println("Es palíndromo ('radar'): " + Numeros.esPalindromo("radar")); // true
+        System.out.println("Es palíndromo ('hola'): " + Numeros.esPalindromo("hola")); // false
+
+        // Probar el método secuenciaFizzBuzz
+        System.out.print("Secuencia FizzBuzz hasta 15: ");
+        Numeros.secuenciaFizzBuzz(15);
+    }
+}

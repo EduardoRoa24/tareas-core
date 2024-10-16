@@ -1,0 +1,22 @@
+package com.eduroa;
+
+import com.eduroa.clases.*;
+
+public class Aplicacion {
+    public static void main(String[] args) {
+        
+        System.out.println("Es par (4): " + Algoritmos.esPar(4)); 
+        System.out.println("Es par (5): " + Algoritmos.esPar(5)); 
+
+        System.out.println("Es primo (7): " + Algoritmos.esPrimo(7)); 
+        System.out.println("Es primo (8): " + Algoritmos.esPrimo(8)); 
+
+        System.out.println("String en reversa ('hola'): " + Algoritmos.stringEnReversa("hola"));
+
+        System.out.println("Es palíndromo ('radar'): " + Algoritmos.esPalindromo("radar")); 
+        System.out.println("Es palíndromo ('hola'): " + Algoritmos.esPalindromo("hola")); 
+
+        System.out.print("Secuencia FizzBuzz hasta 15: ");
+        Algoritmos.secuenciaFizzBuzz(15);
+    }
+}
